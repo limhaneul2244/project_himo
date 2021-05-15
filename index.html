@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>HI-MO</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+    <script src="mainjs/jquery-3.6.0.min.js"></script>
+    <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+    <!-- JQmigrate -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="common/js/common.js"></script>
+    <script src="mainjs/main.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <!-- <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+    </script> -->
+</head>
+
+<body>
+    <div id="skip_nav">
+        <a href="#gnb">네비게이션 바로가기</a>
+        <a href="#container">본문 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <h2 class="hidden">header</h2>
+            <div id="header_inner">
+                <div id="main_header_top">
+                    <nav id="gnb_top">
+                        <ul>
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">MYPAGE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="main_header_bottom">
+                    <h1 id="logo">
+                        <div id="logo_inner">
+                            <a href="index.html">
+                                <img src="common/images/hime_logo_maxsize.png" alt="himo logo">
+                            </a>
+                        </div>
+                    </h1>
+                    <nav id="gnb_bottom">
+                        <ul>
+                            <li><a href="#">토탈헤어솔루션</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">HI-MO SYSTEM</a></li>
+                                    <li><a href="#">버추얼헤어 SYSTEM</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">하이모가이드</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">제품종류</a></li>
+                                    <li><a href="#">제품착용 및 관리법</a></li>
+                                    <li><a href="#">구매관리 및 가이드</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">홍보센터</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">HI-MO뉴스</a></li>
+                                    <li><a href="#">HI-MO광고</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">고객서비스</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">회사소개</a>
+                                <ul class="sub_menu">
+                                    <li><a href="#">HI-MO</a></li>
+                                    <li><a href="#">기업이념</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">사회공헌</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="slide_box"></div>
+        </header>
+     
+        <div id="container">
+            <h2 class="hidden">container</h2>
+            <section id="section">
+                <h3 class="hidden">mainVisual</h3>
+                <div id="section_inner">
+                    <video id="vid" autoplay="autoplay" loop="loop" muted="muted" controls>
+                        <source src="video/himo_main_video.mp4" type="video/mp4">
+                        <strong>Your browser does not support the video tag.</strong>
+                    </video>
+                    <article id="product">
+                        <h3 class="hidden">product</h3>
+                        <div class="section_title">
+                            <div class="main_Gallary_top">
+                                <h2 class="main_txt">제품소개</h2>
+                                <h3 class="more_btn"><a href="#">more+</a></h3>
+                            </div>
+                            <div class="main_Gallary">
+                                <div class="product_box">
+                                    <ul class="product">
+                                        <li class="product_slide"><a href="#"><img src="images/volumeMaster.jpg" alt="제품_볼륨마스터"></a></li>
+                                        <div class="product_slide_txt">극강의 자연스러움에 볼륨을 더하다!</div>
+                                    </ul>
+                                    <ul class="product">
+                                        <li class="product_slide"><a href="#"><img src="images/nabi.jpg" alt="제품_나비"></a></li>
+                                        <div class="product_slide_txt">머리 위 아름다움이 내려앉다.</div>
+                                    </ul>
+                                    <ul class="product">
+                                        <li class="product_slide"><a href="#"><img src="images/highlight.jpg" alt="제품_하이라이트"></a></li>
+                                        <div class="product_slide_txt">컬러와 볼륨을 동시에!<br>스타일업그레이드</div>
+                                    </ul>
+                                    <ul class="product">
+                                        <li class="product_slide"><a href="#"><img src="images/medihope.jpg" alt="제품_메디호프"></a></li>
+                                        <div class="product_slide_txt">쿨론 소재 사용으로 통풍성 상승<br>이보다 더 쾌적할 순 없다!</div>
+                                    </ul>
+                                    <ul class="product">
+                                        <li class="product_slide"><a href="#"><img src="images/mosi.jpg" alt="제품_한산모시"></a></li>
+                                        <div class="product_slide_txt">당신의 두피에 직접 닿기에<br>천연 한산모시에서 찾았습니다.</div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="review">
+                        <h3 class="hidden">review</h3>
+                        <!-- 텍스트가 아래에서 올라오게 하기 -->
+                        <div class="review_men">남성모델</div>
+                        <ul>
+                            <li class="review_men_txt00">남성고객 후기</li>
+                            <li class="review_Wbar">흰색바</li>
+                            <li class="review_men_txt01">하이모로<br>멋진 스타일 완성</li>
+                            <li class="review_men_btn"><a href="http://blog.naver.com/PostThumbnailList.nhn?blogId=himoad1&from=postList&categoryNo=21" target="_blank">more</a></li>
+                        </ul>
+                        <div class="review_women">여성모델</div>
+                        <ul>
+                            <li class="review_women_txt00">여성고객 후기</li>
+                            <li class="review_Pink_bar">핑크색바</li>
+                            <li class="review_women_txt01">하이모 레이디로 미모의 여인</li>
+                            <li class="review_women_txt02">more 볼륨있게 more 자신있게 more 젊게</li>
+                            <li class="review_women_btn"><a href="http://www.himolady.co.kr/board.php?bbs_id=lady_care_before" target="_blank">more</a></li>
+                        </ul>
+                        <div class="review_bg">후기 배경이미지</div>
+                    </article>
+                    <article id="virtual">
+                        <h3 class="hidden">virtual</h3>
+                        <div class="virtual_bg"><span>virtual system bg</span></div>
+                        <div class="virtual_img"><span>virtual system img</span></div>
+                        <div>
+                            <span class="virtual_txt_style">style</span>
+                            <span class="virtual_txt_finder">finder</span>
+                        </div>
+                        <div class="virtual_txt">
+                            <div>나에게 꼭 맞는 헤어스타일 !</div>
+                            <div>숨겨진 매력까지 찾아내는 Hi-MO 가상 헤어 시스템</div>
+                        </div>
+                        <div class="virtual_btn">
+                            <span>
+                                <a href="https://www.himo.co.kr/board_write.php?bbs_id=virtual_hair" target="_blank">버추얼시스템 신청하기</a>
+                            </span>
+                        </div>
+                    </article>
+                    <article id="main_usedInfor">
+                        <h3 class="main_txt">이용안내</h3>
+                        <div class="main_userInfor_container">
+                            <div class="userInfor_box">
+                                <span class="userInfor_apply"><a href="#">상담신청</a></span>
+                                <span class="userInfor_search"><a href="#">지점찾기</a></span>
+                                <span class="userInfor_consulting"><a href="#">고객상담</a></span>
+                                <span class="userInfor_benefit"><a href="#">고객혜택</a></span>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="news">
+                        <h3 class="main_txt">HI-MO NEWS</h3>
+                        <h4 class="news_more_btn"><a href="#">more+</a></h4>
+                        <div class="list_main_news">
+                            <ul>
+                                <li>
+                                    <a href="https://www.ekn.kr/web/view.php?key=20210409010001791" target="_blank" class="news_atag">
+                                        <div>
+                                            <span class="news_img00">뉴스_취약계층지원이미지</span>
+                                        </div>
+                                        <div class="news_infor">
+                                            <span class="news_tit">하이모, 교육 취약계층 청소년 위해 5000만원 기부</span>
+                                            <span class="news_txt">맞춤가발 전문기업 하이모는 교육 취약계층<br>청소년의 교육을 지원하기 위해 법정기부금단체</span>
+                                            <span class="news_date">2021.04.09</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://news.joins.com/article/24004030" target="_blank" class="news_atag">
+                                        <div>
+                                            <span class="news_img01">뉴스_공유가치창출이미지</span>
+                                        </div>
+                                        <div class="news_infor">
+                                            <span class="news_tit">산업통상자원부 장관상 공유가치창출 사회공헌 부문 – (주)하이모</span>
+                                            <span class="news_txt">하이모는 지난 2000년부터 하이모만이 진행<br>할 수 있는 사회공헌활동 영역인 가발 지원을 비롯한 다양한 사회공헌활동 ‘러브헤어(Love Hair)’캠페인’을 꾸준히 진행해 오고 있다.</span>
+                                            <span class="news_date">2021.03.04</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.fnnews.com/news/202101190942460659" target="_blank" class="news_atag">
+                                        <div>
+                                            <span class="news_img02">뉴스_하이모가발보관함이미지</span>
+                                        </div>
+                                        <div class="news_infor">
+                                            <span class="news_tit">하이모, 휴대하기 편한 '가발보관함' 출시</span>
+                                            <span class="news_txt">하이모가 2021년 새해를 맞아 언제 어디서나 간편하게 가발을 보관할 수 있는 '가발보관함'을...</span>
+                                            <span class="news_date">2021.01.19</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <h2 class="hidden">footer</h2>
+            <div id="footer_inner">
+                <div id="footer_top">
+                    <div id="footer_menu">
+                        <ul>
+                            <li><a href="https://www.himo.co.kr/customer_03.html" target="_blank">자주묻는질문</a></li>
+                            <li><a href="https://www.himo.co.kr/member_ship.php" target="_blank">하이모 멤버십 이용약관</a></li>
+                            <li><a href="https://www.himo.co.kr/privacy.php" target="_blank">개인정보취급방침</a></li>
+                            <li><a href="https://www.himo.co.kr/agreement.php" target="_blank">하이몰 전자상거래 이용약관</a></li>
+                            <li><a href="https://www.himo.co.kr/refund_text.php" target="_blank">하이몰 교환/환불정책</a></li>
+                            <li><a href="#">제휴문의</a></li>
+                        </ul>
+                    </div>
+                    <div id="footer_sns">
+                        <div class="footer_sns_list">
+                            <span class="icon_himall"><a href="https://himomall.co.kr/" target="_blank">himall</a></span>
+                            <span class="icon_himolady"><a href="http://www.himolady.co.kr/" target="_blank">himolady</a></span>
+                            <span class="icon_blog"><a href="https://blog.naver.com/himoad1"target="_blank">naverBlog</a></span>
+                            <span class="icon_facebook"><a href="https://www.facebook.com/Himo5858/"target="_blank">faceBook</a></span>
+                            <span class="icon_youtube"><a href="https://www.youtube.com/channel/UCNyk-Gk-YXoJYTqpxT2zdJg" target="_blank">youTube</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer_logo">
+                    <div id="footer_logo_inner">
+                        <span><a href="index.html"><img src="common/images/footer_logo.PNG" alt="하단 로고"></a></span>
+                    </div>
+                </div>
+                <div id="footer_infor">
+                    <ul>
+                        <li>(주)HI-MO</li>
+                        <li>사업자등록정보 : 219-81-21781</li>
+                        <li>대표자 : 홍인표</li>
+                        <li class="block">본사 : 서울시 서초구 양재동 13-4 양재프라자 5층</li>
+                        <li>고객센터 : 1588-5858/080-558-5858(평일 10:00~20:00 수요일 10:00~18:00 토/일 09:00~17:00)</li>
+                        <li>통신판매업신고번호 : 제04364호</li>
+                    </ul>
+                    <p id="copy">Copyright ⓒ Hi-MO All Rights Reserved.</p>
+                </div>
+                <div id="footer_right">
+                    <select class="family_bar" onchange="copyURL(this.value)">
+                        <option value="FAMILY SITE">FAMILY SITE</option>
+                        <option value="https://himomall.co.kr/">하이몰</option>
+                        <option value="http://www.himolady.co.kr/">하이모레이디</option>
+                        <option value="https://www.hisaeng.co.kr/">하이생</option>
+                    </select>
+                </div>
+            </div>
+            <div id="top_btn"><a href="#"><i class="fas fa-angle-up fa-2x"></i></a></div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
+
+
+
+
+<!-- <h2>바로가기</h2>
+    <div id="direct_icon">
+        <a class="tile" title="하이모레이디" href="http://www.himolady.co.kr/" target="_blank">
+            <div class="tile_icon">
+                <img src="./images/himolady.PNG" alt="하이모레이디">
+            </div>
+            <div class="tile_name">
+                <span>하이모레이디</span>
+            </div>
+        </a>
+        <a class="tile" title="하이몰" href="https://himomall.co.kr/" target="_blank">
+            <div class="tile_icon">
+                <img src="./images/himall.PNG" alt="하이몰">
+            </div>
+            <div class="tile_name">
+                <span>하이몰</span>
+            </div>
+        </a>
+        <a class="tile" title="블로그" href="https://blog.naver.com/himoad1" target="_blank">
+            <div class="tile_icon">
+                <img src="./images/blog.PNG" alt="네이버블로그">
+            </div>
+            <div class="tile_name">
+                <span>블로그</span>
+            </div>
+        </a>
+        <a class="tile" title="네이버TV" href="https://tv.naver.com/himo" target="_blank">
+            <div class="tile_icon">
+                <img src="./images/navertv.png" alt="네이버TV">
+            </div>
+            <div class="tile_name">
+                <span>네이버TV</span>
+            </div>
+        </a>
+        <a class="tile" title="Facebook" href="https://www.facebook.com/Himo5858/"
+            target="_blank">
+            <div class="tile_icon">
+                <img src="./images/facebook.PNG" alt="Facebook">
+            </div>
+            <div class="tile_name">
+                <span>Facebook</span>
+            </div>
+        </a>
+        <a class="tile" title="youtube"
+            href="https://www.youtube.com/channel/UCNyk-Gk-YXoJYTqpxT2zdJg" target="_blank">
+            <div class="tile_icon">
+                <img src="./images/youtube.PNG" alt="youtube">
+            </div>
+            <div class="tile_name">
+                <span>youtube</span>
+            </div>
+        </a>
+    </div>
+</div> -->

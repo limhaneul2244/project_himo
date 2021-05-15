@@ -1,0 +1,534 @@
+@charset "UTF-8";
+
+/* 하이모 적용 폰트 Noto Sans or 나눔고딕->Roboto */
+/* font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+/*-----------------------main_container-----------------------*/
+#section_inner {
+    overflow: hidden;
+}
+#section_inner>#vid {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#product {
+    height: 450px;
+}
+.section_title {
+	text-align: center;
+}
+.main_Gallary_top {
+	position: relative;
+}
+.main_Gallary_top>.mainProduct_txt {
+	/* margin: 50px auto;
+	text-align: center;
+	font-size: 1.5em; */
+	/* background-color: gold; */
+}
+.main_Gallary_top>.more_btn {
+	position: absolute;
+	top:0;
+	left: 1280px;
+	width: 80px;
+	height: 25px;
+	background-color: rgb(163, 67, 67);
+}
+
+.section_title .product_infor{
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	margin: 10px 10px;
+	background-color: gray;
+}
+
+
+
+/* product_box */
+.main_Gallary .product_box li {}
+.main_Gallary {
+	display: inline-block;
+	height: 167px;
+}
+.main_Gallary .product_box {
+	position: relative;
+	left: 370px;
+	width: 1850px;
+	/* height: 167px; */
+	/* background-color: greenyellow; */
+}
+.product {
+    float: left;
+    width: 350px;
+    height: 217px;
+    margin-right: 10px;
+    /* background-color: rgb(179, 81, 81); */
+}
+.product::after {
+    clear: both;
+}
+
+.product_box>.product_slide {}
+.product_box>.product_slide>a {}
+.product_box>.product_slide>a>img {}
+.product_box>.product>.product_slide_txt {
+    display: table-cell;
+    width: 350px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: left;
+    /* background-color: rgb(37, 148, 124); */
+}
+
+#review {
+    position: relative;
+    width: 1920px;
+    height: 450px;
+    margin: 0 auto;
+}
+#review>.review_bg {
+    display: block;
+    text-indent: -9999px;
+    width: 1920px;
+    height: 400px;
+    margin: 0 auto;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/main_review_bg.png);
+}
+#review>.review_men {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 350px;
+    height: 422px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/main_review_men.png);
+    animation: men 3s 1 normal;
+}
+@keyframes men {
+    0%{transform:translateX(5px);}
+    50%{transform:translateX(-35px);}
+    100%{transform:translateX(0px);}  
+}
+#review>ul>li {}
+#review>.review_women {
+    position: absolute;
+    top: -22px;
+    right: 0;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 350px;
+    height: 422px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/main_review_women.png);
+}
+.review_men_txt00 {
+    position: absolute;
+    top: 100px;
+    left: 470px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+.review_men_txt01 {
+    position: absolute;
+    top: 170px;
+    left: 470px;
+    line-height: 40px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.review_Wbar {
+    display: inline-block;
+    width: 281px;
+    height: 3px;
+    position: absolute;
+    top: 160px;
+    left: 470px;
+    text-indent: -9999px;
+    background-image: url(../images/review_white_bar.png);
+}
+.review_Pink_bar {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 1100px;
+    width: 281px;
+    height: 3px;
+    text-indent: -9999px;
+    background-image: url(../images/review_pink_bar.png);
+}
+.review_men_btn {
+    position: absolute;
+    left: 470px;
+    bottom: 150px;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.review_men_btn>a:hover {
+    color: #000;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+.review_men_btn>a {
+    display: block;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+}
+.review_women_txt00 {
+    position: absolute;
+    top: 100px;
+    left: 1100px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #d84189;
+}
+.review_women_txt01 {
+    position: absolute;
+    top: 170px;
+    left: 1100px;
+    line-height: 40px;
+    font-size: 1.5rem;
+    color: #b29d8d;
+}
+.review_women_txt02 {
+    position: absolute;
+    top: 210px;
+    left: 1100px;
+    line-height: 40px;
+    font-size: 1.5rem;
+    color: #fb6264;
+}
+.review_women_btn {
+    position: absolute;
+    left: 1100px;
+    bottom: 150px;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+}
+.review_women_btn>a:hover {
+    color: #fff;
+    background-color: #fb6264;;
+}
+.review_women_btn>a {
+    display: block;
+    width: 90px;
+    height: 30px;
+    color: #000;
+}
+
+/* vertual system */
+#virtual {
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+}
+#virtual>.virtual_bg {}
+#virtual>.virtual_bg {
+    display: block;
+    text-indent: -9999px;
+    width: 1920px;
+    height: 998px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/virtual\ system_bg.jpg);
+}
+#virtual>.virtual_img {
+    position: absolute;
+    left: 520px;
+    bottom: 50px;
+    display: block;
+    text-indent: -9999px;
+    width: 862px;
+    height: 749px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/banner-item-pcimg.png);
+}
+.virtual_txt_style {
+    position: absolute;
+    top: 437px;
+    left: 65px;
+    display: block;
+    text-indent: -9999px;
+    width: 407px;
+    height: 128px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/banner_item_txt_style.png);
+}
+.virtual_txt_finder {
+    position: absolute;
+    top: 437px;
+    right: 20px;
+    display: block;
+    text-indent: -9999px;
+    width: 476px;
+    height: 128px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/banner_item_txt_finder.png);
+}
+.virtual_txt {
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    width: 500px;
+    height: 100px;
+    margin: 20px auto;
+    text-align: center;
+    /* background-color: rgb(126, 27, 27); */
+}
+.virtual_txt>div:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+    margin:20px auto;
+}
+.virtual_txt>div:last-child {
+    font-size: 1rem;
+    display: inline-block;
+}
+.virtual_btn {
+    position: absolute;
+    left: 812px;
+    bottom: 70px;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    border: 3px solid rgb(29, 37, 151);
+}
+.virtual_btn a {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+/* #main_usedInfor */
+#main_usedInfor {
+    width: 100%;
+}
+.main_userInfor_container {
+    width: 100%;
+}
+.main_userInfor_container>.userInfor_box {
+    display: block;
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: rgb(117, 45, 45); */
+}
+.main_userInfor_container>.userInfor_box>span { 
+    display: inline-block;
+    width: 300px; 
+    height: 300px;
+    margin-right: 20px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.main_userInfor_container>.userInfor_box>span>a:hover { 
+    /* background-color: rgb(0, 0, 0, 0.5);
+    opacity: 1;
+    width: 300px; 
+    height: 300px; */
+
+}
+.main_userInfor_container>.userInfor_box>span>a {}
+.main_userInfor_container>.userInfor_box>.userInfor_apply {
+    background-image: url(../images/apply_icon.png);
+}
+.main_userInfor_container>.userInfor_box>.userInfor_search {
+    background-image: url(../images/search_icon.png);
+}
+.main_userInfor_container>.userInfor_box>.userInfor_consulting {
+    background-image: url(../images/consulting_icon.png);
+}
+.main_userInfor_container>.userInfor_box>.userInfor_benefit {
+    background-image: url(../images/benefit_icon.png);
+}
+
+/* #news */
+#news {
+    position: relative;
+    width: 1280px;
+    height: 700px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+#news>.news_more_btn {
+    position: absolute;
+	top:0;
+	left: 1100px;
+    width: 80px;
+	height: 25px;
+    text-align: center;
+    background-color: rgb(27, 199, 56);
+}
+#news>.news_more_btn>a {
+    width: 80px;
+	height: 25px;
+}
+
+#news>.list_main_news {
+    width: 1280px;
+    /* height: 170px; */
+}
+#news>.list_main_news>ul {
+    position: relative;
+    width: 1280px;
+    height: 520px;
+    margin: 0 auto;
+    text-align: center;
+}
+#news>.list_main_news>ul>li {
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+}
+#news>.list_main_news>ul>li:nth-child(2) {
+    position: relative;
+    top: -20px;
+    /* 두번째 뉴스란만 20px띄움 */
+}
+.list_main_news .news_atag span:hover{}
+#news>.list_main_news .news_img00  {
+    display: block;
+    text-indent: -9999px;
+    width: 350px;
+    height: 254px;
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/news00.png);
+}
+#news>.list_main_news .news_img01  {
+    display: block;
+    text-indent: -9999px;
+    width: 350px;
+    height: 254px;
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/news01.png);
+}
+#news>.list_main_news .news_img02  {
+    display: block;
+    text-indent: -9999px;
+    width: 350px;
+    height: 254px;
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/news02.png);
+}
+#news .news_infor {
+    width: 310px;
+    height: 206px;
+    padding: 20px;
+}
+#news>.list_main_news .news_tit  {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+}
+#news>.list_main_news .news_txt  {
+    display: block;
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+}
+#news>.list_main_news .news_date  {
+    /* display: block; */
+    float: left;
+    padding: 10px 0;
+}
+
+.list_main_news .news_atag {
+    display: block;
+    width: 310px;
+    height: 500px;
+}
+
+
+/* IR기법 사용 */
+/* #product .product_box span {
+	display: inline-block;
+	text-indent: -9999px;
+	width: 350px;
+	height: 167px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+#product .product_box>span>a {
+	display: block;
+	width: 350px;
+	height: 167px;
+}
+#product .product_box>.product_medihope>a {
+	background-image: url(/images/medihope.jpg);
+}
+#product .product_box>.product_volume>a {
+	background-image: url(/images/volumeMaster.jpg);
+}
+#product .product_box>.product_mosi>a {
+	background-image: url(/images/mosi.jpg);
+}
+#product .product_box>.product_nabi>a {
+	background-image: url(/images/nabi.jpg);
+}
+#product .product_box>.product_highlight>a {
+	background-image: url(/images/highlight.jpg);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #article_body #icon_box {
+	height: 210px;
+}
+#article_body #icon_box>.user {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: 10px 0 0 20px;
+	border-radius: 150px;
+} */
