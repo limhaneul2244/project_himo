@@ -100,10 +100,10 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
 }
 /* 페이지마다 텍스트 글씨체 */
 .main_txt { 
-	margin: 50px auto;
+	margin: 70px auto;
 	text-align: center;
 	font-size: 1.5em;
-	background-color: gold;
+	/* background-color: gold; */
 }
 #slide_box {
 	display: none;
@@ -284,6 +284,7 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
 	display: block;
 	width: 40px;
 	height: 40px;
+	border-radius: 15px;
 }
 #footer_sns>.footer_sns_list>.icon_himall>a {
 	background-image: url(../images/himall_icon.png);
