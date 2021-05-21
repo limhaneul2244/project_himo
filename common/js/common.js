@@ -38,19 +38,3 @@ function copyURL(url) {
     }
 }
 //----------------------------------------------------
-
-
-
-//sub page1_3D SCANNER_Slide
-// let myImg=document.getElementById("slideImg");
-// let imageArray=["../resource/slide_scanner_black.png","../resource/slide_scanner_white.png"];
-// let slideIndex=0;
-
-// function slideImage() {
-//     myImg.setAttribute("src",imageArray[slideIndex]);
-//     slideIndex++;
-//     if(slideIndex>=imageArray.length){
-//         slideIndex=0;
-//     }
-// }
-// setInterval(slideImage, 3000);
