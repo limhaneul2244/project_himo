@@ -105,7 +105,7 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
 	height: 400px;
 	margin: 0 auto;
 }
-#main_visual .sub1_mainimg {
+#main_visual .mainimg {
 	width: 1920px;
 	height: 400px;
 	margin: 0 auto;
@@ -113,7 +113,7 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
 	background-repeat: no-repeat;
 	background-image: url(../images/sub_main_visual.png);
 }
-.sub1_mainimg_txt {
+.mainimg_txt {
 	display: block;
 	height: 400px;
 	line-height: 400px;
@@ -136,7 +136,6 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
 	width: 1280px;
 	height: 50px;
 	margin: 0 auto;
-	box-sizing: border-box;
 	margin-top: 15px;
 	border: 3px solid rgb(150, 150, 150);
 }
