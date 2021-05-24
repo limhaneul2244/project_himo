@@ -112,7 +112,7 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
 	margin: 0 auto;
 	background-position: 0,0;
 	background-repeat: no-repeat;
-	background-image: url(../images/sub2_mainVisual.png);
+	background-image: url(../images/sub5_mainVisual.png);
 }
 .mainimg_txt {
 	display: block;
@@ -155,75 +155,39 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
 	height: 50px;
 }
 
-/* .lnb */
+/* .company */
 
-.lnb {
-    width: 1200px;
-    margin: 0 auto;
-}
-.lnb>ul {
-    width: 1200px;
-    margin: 50px auto;
-    overflow: hidden;
-}
-.lnb>ul>li {
-    float: left;
-    width: 33%;
-}
-
-.lnb>ul>li>a {
-    display: block;
-    text-align: center;
-    padding: 15px 0;
-}
-
-.lnb>ul>li>a.current {
-    border-bottom: 4px solid #081354;
-}
-.lnb>div {
-    display: none;
-}
-
-/*lnb_con1*/
-.lnb_con1 {
-    width: 1200px;
-    height: 600px;
-}
-.wig {
-    width: 1200px;
-    margin: 100px auto;
-}
-.wig>li {
-    float: left;
-    width: 350px;
-    height: 275px;
-    margin-left: 35px;
-}
-.wig>li>a {
-    display: block;
-    width: 350px;
-    height: 275px;
-}
-.wig>li>a:hover {}
-
-.wig>li>a>.full_wig_img {
-    display: block;
+.company {
     width: 100%;
 }
-.wig>li>a>.wig_txt {
+.company>.company_inner {
+    position: relative;
+    width: 1280px;
+    margin: 100px auto;
+}
+.company>.company_inner>.company_img {
+    text-indent: -9999px;
+    width: 1281px;
+    height: 576px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/company_img.png);
+}
+
+.company>.company_inner>.com_bg {
+    position: absolute;
+    top: 119px;
+    width: 1280px;
+    height: 340px;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.company>.company_inner .com_txt {
     display: inline-block;
-    width: 350px;
-    height: 64px;
-    line-height: 1.5;
-}
-
-/*lnb_con1*/
-.lnb_con2  {
-    width: 1200px;
-    height: 2000px;
-}
-
-.lnb_con3  {
-    width: 1200px;
-    height: 500px;
+    width: 100%;
+    font-size: 2rem;
+    padding: 74px 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2;
 }
