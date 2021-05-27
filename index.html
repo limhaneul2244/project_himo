@@ -10,17 +10,21 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="common/css/common.css">
     <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="maincss/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <script src="mainjs/jquery-3.6.0.min.js"></script>
+    <!-- <script src="mainjs/jquery-3.6.0.min.js"></script> -->
+    <script src="common/js/jquery-1.12.3.js"></script>
     <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
     <!-- JQmigrate -->
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="common/js/common.js"></script>
     <script src="mainjs/main.js"></script>
+    <script src="common/js/easing.js"></script>
+    <script src="mainjs/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
     <!-- <script>
     $(document).ready(function(){
@@ -112,7 +116,7 @@
                         <div class="section_title">
                             <div class="main_Gallary_top">
                                 <h2 class="main_txt">제품소개</h2>
-                                <h3 class="more_btn"><a href="javascript:void(0)">more+</a></h3>
+                                <h3 class="more_btn"><a href="sub2/sub2-1.html">more+</a></h3>
                             </div>
                             <div class="main_Gallary">
                                 <div class="gallary_warp">
@@ -175,14 +179,14 @@
                     <article id="review">
                         <h3 class="hidden">review</h3>
                         <!-- 텍스트가 아래에서 올라오게 하기 -->
-                        <div class="review_men">남성모델</div>
+                        <div class="review_men" data-aos="fade-right" >남성모델</div>
                         <ul>
                             <li class="review_men_txt00">남성고객 후기</li>
                             <li class="review_Wbar">흰색바</li>
                             <li class="review_men_txt01">하이모로<br>멋진 스타일 완성</li>
                             <li class="review_men_btn"><a href="http://blog.naver.com/PostThumbnailList.nhn?blogId=himoad1&from=postList&categoryNo=21" target="_blank">more</a></li>
                         </ul>
-                        <div class="review_women">여성모델</div>
+                        <div class="review_women" data-aos="fade-left">여성모델</div>
                         <ul class="review_women_wrap">
                             <li class="review_women_txt00">여성고객 후기</li>
                             <li class="review_Pink_bar">핑크색바</li>
@@ -197,12 +201,12 @@
                         <div class="virtual_bg"><span>virtual system bg</span></div>
                         <div class="virtual_img"><span>virtual system img</span></div>
                         <div>
-                            <span class="virtual_txt_style">style</span>
-                            <span class="virtual_txt_finder">finder</span>
+                            <span class="virtual_txt_style" data-aos="fade-down" data-aos-duration="2000">style</span>
+                            <span class="virtual_txt_finder" data-aos="fade-down" data-aos-duration="2000">finder</span>
                         </div>
                         <div class="virtual_txt">
-                            <div>나에게 꼭 맞는 헤어스타일 !</div>
-                            <div>숨겨진 매력까지 찾아내는 Hi-MO 가상 헤어 시스템</div>
+                            <div data-aos="zoom-in" data-aos-duration="2000">나에게 꼭 맞는 헤어스타일 !</div>
+                            <div data-aos="zoom-in" data-aos-duration="2000">숨겨진 매력까지 찾아내는 Hi-MO 가상 헤어 시스템</div>
                         </div>
                         <div class="virtual_btn">
                             <span>
@@ -223,7 +227,7 @@
                     </article>
                     <article id="news">
                         <h3 class="main_txt">HI-MO NEWS</h3>
-                        <h4 class="news_more_btn"><a href="javascript:void(0)">more+</a></h4>
+                        <h4 class="news_more_btn"><a href="sub3/sub3-1.html">more+</a></h4>
                         <div class="list_main_news">
                             <ul>
                                 <li>
@@ -317,10 +321,16 @@
                     </select>
                 </div>
             </div>
-            <div id="top_btn"><a href="javascript:void(0)"><i class="fas fa-angle-up fa-2x"></i></a></div>
         </footer>
-
+        <div id="top_btn">
+            <a href="javascript:void(0)"><img src="common/images/top_btn.png" alt="top_btn"></a>
+        </div>
     </div>
+    <!-- aos 연동 -->
+    <script>
+        AOS.init();
+      </script>
+    <!-- aos 연동 -->
 </body>
 
 </html>
