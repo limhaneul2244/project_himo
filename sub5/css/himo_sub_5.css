@@ -182,7 +182,7 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
     background-color: rgb(255, 255, 255, 0.2);
 }
 
-.company>.company_inner .com_txt00 {
+.com_txt00 {
     display: inline-block;
     width: 100%;
     font-size: 2rem;
@@ -192,17 +192,21 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
     line-height: 2;
 }
 
-.company_inner>.main_txt>.com_txt01 {
-	font-size: 2.5rem;
+.main_txt>.com_txt01 {
+	font-size: 1.8rem;
 	padding: 30px 0;
 	color: rgb(97, 97, 97);
 }
-
+/* 영문 글씨 */
+.main_txt .eng_txt {
+	font-size: 3rem;
+}
 /* .icon_box */
 
 .icon_box{
 	width: 1280px;
 	margin: 0 auto;
+	margin-top: 100px;
 }
 .icon_box>.icon_box_inner{}
 .icon_box>.icon_box_inner>ul{
@@ -254,11 +258,12 @@ display:block;height:auto;padding:5px 0; background:#f2f2f2;}
 	line-height: 50px;
 	color: #a7a7a7;
 }
-.icon_box>.icon_box_inner .com_txt01 {
+/* .icon_box>.icon_box_inner .com_txt01 {
 	color: rgb(97, 97, 97);
-}
+} */
 
 /* .logo_type */
+
 .logo_type {
 	width: 100%;
 }
