@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             // "file": "${workspaceFolder}/index.html"
-            "file": "${workspaceFolder}/sub1/sub1-1.html"
+            "file": "${workspaceFolder}/index.html"
         }
     ]
 }
