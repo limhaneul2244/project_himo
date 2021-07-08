@@ -16,6 +16,8 @@
     <script src="/common/js/jquery-migrate-1.4.1.min.js"></script>
     <script src="/common/js/prefixfree.min.js"></script>
     <!-- prefixfree 접두사 제거 -->
+    <script src="../common/js/tab.js"></script>
+    <!-- 키보드 tab 처리 -->
     <script src="/common/js/common.js"></script>
     <script src="/common/js/header_active.js"></script>
 </head>
@@ -48,32 +50,32 @@
                     </h1>
                     <nav id="gnb_bottom">
                         <ul>
-                            <li><a href="/sub1/sub1-1.html">토탈헤어솔루션</a>
+                            <li class="tab1 gnbmenu"><a class="depth" href="/sub1/sub1-1.html">토탈헤어솔루션</a>
                                 <ul class="sub_menu">
                                     <li><a href="#">HI-MO SYSTEM</a></li>
                                     <li><a href="#">버추얼헤어 SYSTEM</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/sub2/sub2-1.html">하이모가이드</a>
+                            <li class="tab2 gnbmenu"><a class="depth" href="/sub2/sub2-1.html">하이모가이드</a>
                                 <ul class="sub_menu">
                                     <li><a href="#">제품종류</a></li>
                                     <li><a href="#">제품착용 및 관리법</a></li>
                                     <li><a href="#">구매관리 및 가이드</a></li>
                                 </ul>
                             </li>
-                            <li><a href="https://lhn2244.cafe24.com/g5/bbs/board.php?bo_table=table_test_01">홍보센터</a>
+                            <li class="tab3 gnbmenu"><a class="depth" href="https://lhn2244.cafe24.com/g5/bbs/board.php?bo_table=table_test_01">홍보센터</a>
                                 <ul class="sub_menu">
                                     <li><a href="#">HI-MO뉴스</a></li>
                                     <li><a href="#">HI-MO광고</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/sub4/sub4-1.html">고객서비스</a>
+                            <li class="tab4 gnbmenu"><a class="depth" href="/sub4/sub4-1.html">고객서비스</a>
                                 <ul class="sub_menu">
                                     <li><a href="#">공지사항</a></li>
                                     <li><a href="#">이벤트</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/sub5/sub5-1.html">회사소개</a>
+                            <li class="tab5 gnbmenu"><a class="depth" href="/sub5/sub5-1.html">회사소개</a>
                                 <ul class="sub_menu">
                                     <li><a href="#">HI-MO</a></li>
                                     <li><a href="#">기업이념</a></li>
