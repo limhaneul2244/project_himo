@@ -69,7 +69,7 @@
                                     <li><a href="#">HI-MO광고</a></li>
                                 </ul>
                             </li>
-                            <li class="tab4 gnbmenu"><a class="depth" href="/sub4/sub4-1.html">고객서비스</a>
+                            <li class="tab4 gnbmenu"><a class="depth" href="https://lhn2244.cafe24.com/g5/bbs/board.php?bo_table=table_test_02">고객서비스</a>
                                 <ul class="sub_menu">
                                     <li><a href="#">공지사항</a></li>
                                     <li><a href="#">이벤트</a></li>
@@ -94,6 +94,20 @@
             <h2 class="hidden">main_visual</h2>
             <div class="mainimg">
                 <span class="mainimg_txt">홍보센터</span>
+            </div>
+        </div>
+
+        <div id="container">
+            <h2 class="hidden">container</h2>
+            <div id="section">
+                <div id="section_inner">
+                    <article class="path">
+                        <ul>
+                            <li><a href="#">Hi-Mo 뉴스</a></li>
+                            <li><a href="#">Hi-Mo 광고</a></li>
+                        </ul>
+                    </article>
+                </div>
             </div>
         </div>
 

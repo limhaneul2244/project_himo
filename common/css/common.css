@@ -89,10 +89,6 @@ header.active {
 	background-color: rgba(0, 0, 0, 0.678);
 }
 
-/* header.active #slide_box:hover {
-	background-color: rgba(0, 0, 0, 0.678);
-} */
-
 #container {
 	width: 1920px;
 	margin: 0 auto;
@@ -113,7 +109,6 @@ header.active {
 	margin: 70px auto;
 	text-align: center;
 	font-size: 1.5em;
-	/* background-color: gold; */
 }
 #slide_box {
 	display: none;
@@ -127,9 +122,7 @@ header.active {
 	display: block;
 }
 /*-----------------------header-----------------------*/
-/* #header:hover {
-	background-color: rgb(255, 255, 255, 0.7);
-} */
+
 #header_inner {
 	position: relative;
 	margin: 0 auto;
@@ -189,7 +182,6 @@ header.active {
 	float: right;
     width: 850px;
 	height: 100%;
-	/* background-color: rgb(29, 37, 151); */
 }
 #gnb_bottom>ul>li {
 	float: left;
@@ -238,7 +230,6 @@ header.active {
 	margin: 0 auto;
 	width: 1280px;
 	height: 200px;
-	/* background-color: rgb(36, 167, 75); */
 }
 #footer #footer_top	{
 	position: relative;
@@ -354,7 +345,6 @@ header.active {
 	line-height: 21px;
 	text-align: center;
 	margin: 3px 15px;
-	/* border-right: 1px solid rgb(255, 255, 255); */
 	color: #fff;
 }
 #footer_infor>ul>.block {

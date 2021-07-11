@@ -25,12 +25,6 @@ font-family: 'Roboto', sans-serif;
 .main_Gallary_top {
     position: relative;
 }
-.main_Gallary_top>.mainProduct_txt {
-	/* margin: 50px auto;
-	text-align: center;
-	font-size: 1.5em; */
-	/* background-color: gold; */
-}
 #product .main_Gallary_top>.more_btn {
 	position: absolute;
 	top:0;
@@ -38,7 +32,6 @@ font-family: 'Roboto', sans-serif;
     width: 80px;
 	height: 25px;
     text-align: center;
-    /* background-color: rgb(27, 199, 56); */
 }
 .section_title .product_infor{
 	display: inline-block;
@@ -58,7 +51,6 @@ font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 	width: 1160px;
 	height: 227px;
-    /* background-color: rgb(116, 71, 71); */
 }
 .gallary_warp {
     overflow: hidden;
@@ -81,7 +73,6 @@ font-family: 'Roboto', sans-serif;
     width: 350px;
     height: 227px;
     margin-right: 20px;
-    /* background-color: rgb(27, 155, 70); */
 }
 
 .product_box>.product_slide {}
@@ -105,8 +96,6 @@ font-family: 'Roboto', sans-serif;
 
 .gallary_btn {}
 .gallary_btn>span {
-    /* 공통 span class */
-    /* position: absolute; */
     display: inline-block;
     top: 80px;
     width: 30px;
@@ -157,13 +146,7 @@ font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     background-image: url(../images/main_review_men.png);
     transition: all 0.8s;
-    /* animation: men 3s 1 normal; */
 }
-/* @keyframes men {
-    0%{transform:translateX(5px);}
-    50%{transform:translateX(-35px);}
-    100%{transform:translateX(0px);}  
-} */
 
 #review>.review_women {
     position: absolute;
@@ -341,7 +324,6 @@ font-family: 'Roboto', sans-serif;
     height: 100px;
     margin: 20px auto;
     text-align: center;
-    /* background-color: rgb(126, 27, 27); */
 }
 .virtual_txt>div:first-child {
     font-size: 2rem;
@@ -382,16 +364,13 @@ font-family: 'Roboto', sans-serif;
     width: 1090px;
     height: 250px;
     margin: 0 auto;
-    /* background-color: rgb(117, 45, 45); */
 }
 .main_userInfor_container>.userInfor_box>span { 
-    /* display: block; */
     float: left;
     width: 250px; 
     height: 250px;
     border-radius: 150px;
     margin-right: 30px;
-    /* text-indent: -9999px; */
     background-position: 0 0;
     background-repeat: no-repeat;
 }
@@ -552,8 +531,3 @@ font-family: 'Roboto', sans-serif;
     width: 350px;
     height: 510px;
 }
-/* .list_main_news .news_atag:hover {
-    border-radius: 10px;
-    transition: all 0.8s;
-    border: 10px solid rgb(12, 15, 190);
-} */

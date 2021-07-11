@@ -1,4 +1,4 @@
-// 키보드 tab 처리//
+// 시각 장애인을 위한 키보드 tab 처리//
 $(document).ready(function() {        
     $('li.gnbmenu .depth').bind('focus', function () {        
             $('li.gnbmenu ul').slideDown('normal');
